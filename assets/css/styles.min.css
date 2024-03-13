@@ -1,3 +1,36 @@
+ .mobile-text {
+
+  display: none; /* Hide by default */
+
+ }
+
+ 
+
+ /* Show the .mobile-text element only on screens smaller than 768px */
+
+ @media only screen and (max-width: 768px) {
+        .font-face--gyahegi {
+          display: none; /* Hide desktop text on phones */
+        }
+
+  .mobile-text {
+
+   display: block; /* Show phone text on phones 
+
+   font-size: inherit; /* Inherit font size from parent element (h2) */
+
+   text-align: center; /* Center the text horizontally */
+
+			font-family: "Gyahegi";
+
+			font-weight: 420;
+
+			font-style: normal;
+
+  }
+
+ }
+
 img,legend {
     border: 0
 }
@@ -4798,10 +4831,20 @@ body {
 
 .profile {
     border-radius: 18%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .profile2 {
     border-radius: 10%;
+}
+
+.founder-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: centre;
 }
 
 .image-container {
@@ -7072,8 +7115,8 @@ body.loaded .section-gems .gem-image {
     -ms-transform: translate(-50%,30%);
     transform: translate(-50%,30%);
     width: 30%;
-    max-width: 400px;
-    min-width: 250px;
+    max-width: 700px;
+    min-width: 450px;
     height: auto;
     left: 50%;
     top: 0;
