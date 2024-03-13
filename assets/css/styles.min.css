@@ -7115,7 +7115,7 @@ body.loaded .section-gems .gem-image {
     -ms-transform: translate(-50%,30%);
     transform: translate(-50%,30%);
     width: 30%;
-    max-width: 700px;
+    max-width: 550px;
     min-width: 250px;
     height: auto;
     left: 50%;
